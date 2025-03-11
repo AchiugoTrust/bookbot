@@ -20,7 +20,7 @@ def main():
         sys.exit(1)
 
     book_path = sys.argv[1]
-    print(f"Analyzing book found at {book_path}")
+    print(f"Analyzing book found at {book_path}") 
 
 
     content = get_book_text(book_path)
